@@ -6,6 +6,6 @@
     <title>Hello World Example</title>
 </head>
 <body>
-Hello <s:property value="strNameVal"/>!
+Hello <s:property value="name"/>!
 </body>
 </html>

@@ -7,12 +7,16 @@
 <struts>
 
     <constant name="struts.devMode" value="true"/>
+    <constant name="struts.convention.action.suffix" value="Controller"/>
+    <constant name="struts.convention.action.mapAllMatches" value="true"/>
+    <constant name="struts.convention.default.parent.package" value="struts-default"/>
 
     <package name="default" namespace="/" extends="struts-default">
 
-        <action name="hello" class="com.drakenelson.action.HelloWorld.HelloWorldAction">
-            <result>/WEB-INF/content/greeting/greeting.jsp</result>
-        </action>
+
+<!--        <action name="hello" class="com.drakenelson.action.HelloWorld.HelloWorldAction">-->
+<!--            <result>/WEB-INF/content/Greeting/greeting.jsp</result>-->
+<!--        </action>-->
 
     </package>
 
