@@ -10,7 +10,7 @@ import java.io.Serializable;
 
 //@Data
 //@EqualsAndHashCode(callSuper = false)
-@Component
+//@Component
 public class GreetingAction extends ActionSupport implements Serializable {
     private String nameVal;
     private String otherVal;

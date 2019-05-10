@@ -7,12 +7,12 @@
 </head>
 <body>
 <h1>Hello World Example</h1>
-<s:form action="/greeting/greeting" method="post">
-    <s:textfield name="nameVal" type="text"/>
-    <s:submit />
-</s:form>
+<%--<s:form action="/greeting/greeting" method="post">--%>
+<%--    <s:textfield name="nameVal" type="text"/>--%>
+<%--    <s:submit />--%>
+<%--</s:form>--%>
 
-Hello <s:property value="strNameVal"/>!
+Hello <s:property value="nameVal"/>!
 
 <%--<s:form action="/helloWorld/hello-world">--%>
 <%--    <input type="text" name="name"/>--%>
