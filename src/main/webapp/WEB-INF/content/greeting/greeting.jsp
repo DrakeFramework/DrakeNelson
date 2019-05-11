@@ -7,6 +7,6 @@
 </head>
 <body>
 <h1>Greetings Example</h1>
-Hello <s:property value="nameVal"/>!
+Hello <s:property value="name"/>!
 </body>
 </html>

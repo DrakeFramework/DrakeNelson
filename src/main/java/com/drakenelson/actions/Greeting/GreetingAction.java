@@ -1,5 +1,6 @@
-package com.drakenelson.action.Greeting;
+package com.drakenelson.actions.Greeting;
 
+import com.opensymphony.xwork2.Preparable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.drakenelson.action.Greeting;
+package com.drakenelson.actions.Greeting;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;
