@@ -1,4 +1,4 @@
-package com.drakenelson.actions.HelloWorld;
+package com.drakenelson.action.HelloWorld;
 
 import com.opensymphony.xwork2.ActionSupport;
 import lombok.Data;

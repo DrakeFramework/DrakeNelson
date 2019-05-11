@@ -6,20 +6,7 @@
     <title>Hello World Example</title>
 </head>
 <body>
-<h1>Hello World Example</h1>
-<%--<s:form action="/greeting/greeting" method="post">--%>
-<%--    <s:textfield name="nameVal" type="text"/>--%>
-<%--    <s:submit />--%>
-<%--</s:form>--%>
-
+<h1>Greetings Example</h1>
 Hello <s:property value="nameVal"/>!
-
-<%--<s:form action="/helloWorld/hello-world">--%>
-<%--    <input type="text" name="name"/>--%>
-<%--    <input type="submit" value="Submit"/>--%>
-<%--    <s:submit  value="Click me!" type="button"/>--%>
-<%--</s:form>--%>
-
-
 </body>
 </html>
