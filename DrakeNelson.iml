@@ -4,7 +4,7 @@
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/resources/web.xml" />
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/resources/config/web.xml" />
         </descriptors>
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
@@ -12,7 +12,6 @@
       </configuration>
       <facet type="Struts2" name="Struts 2">
         <configuration>
-          <fileset id="s2fileset2" name="My Fileset 2" removed="false" />
           <propertiesKeys disabled="false" />
         </configuration>
       </facet>
@@ -22,6 +21,8 @@
         <fileset id="fileset" name="ApplicationContext" removed="false">
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/applicationContext.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring-web-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/resources/config/spring-web-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/resources/config/applicationContext.xml</file>
         </fileset>
       </configuration>
     </facet>
