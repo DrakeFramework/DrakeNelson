@@ -1,7 +1,7 @@
-package com.drakenelson.dao.Login;
+package com.drakenelson.dao.User;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class LoginDao {
+public class UserDao {
 }
